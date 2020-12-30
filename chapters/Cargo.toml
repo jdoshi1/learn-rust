@@ -5,4 +5,5 @@ members = [
     "slices",
     "ownership",
     "matchoptions",
+    "iflet",
 ]

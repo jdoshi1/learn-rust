@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "ownership",
+    "rectangles",
+    "slices",
+    "variables",
+]

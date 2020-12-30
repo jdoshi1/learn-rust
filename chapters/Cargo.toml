@@ -4,4 +4,5 @@ members = [
     "rectangles",
     "slices",
     "ownership",
+    "matchoptions",
 ]

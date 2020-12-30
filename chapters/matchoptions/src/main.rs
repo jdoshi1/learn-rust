@@ -27,7 +27,7 @@ fn value_in_cents(coin: &Coin) -> u8 {
 fn main() {
     println!("Match Coins!");
     let z = [Coin::Quarter(UsState::Alabama), Coin::Penny, Coin::Nickel, Coin::Dime, Coin::Quarter(UsState::Alaska)];
-    for (i, c ) in z.iter().enumerate() {
+    for (i, c) in z.iter().enumerate() {
         println!("Coin: {} -> Denomination: {}", i, value_in_cents(c));
     }
 }

@@ -46,7 +46,6 @@ fn main() {
     liftoff();
 
     let mut s = String::from("hello!"); // type String; Same as String::from("hello")
-    let mut s = String::from("World2!"); 
     let t = String::new();
     s.push_str("world!");
    
@@ -54,7 +53,7 @@ fn main() {
     println!("The value s, t: {}, {}", s, t);
     // println!("The value t: {}", t.push_str("world!"));
 
-    let name_domain = String::from("turreta.com");
+    let name_domain = String::from("substrate.dev");
     let name_state = String::from(" loves Rust!");
     // let v = name_domain + &name_state;
     // println!("The value: {}", v);

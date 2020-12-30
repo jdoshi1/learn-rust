@@ -12,7 +12,7 @@ fn main() {
     println!("hello = {}, world = {}, middle = {}", hello, world, middle);
 
     let s1 = String::from("hello1");
-    let mut s2 = s1.clone();
+    let s2 = s1.clone();
 
     println!("s1 = {}, s2 = {}", s1, s2);
 

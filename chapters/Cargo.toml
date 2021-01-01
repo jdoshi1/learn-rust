@@ -6,4 +6,5 @@ members = [
     "ownership",
     "matchoptions",
     "iflet",
+    "restaurant",
 ]

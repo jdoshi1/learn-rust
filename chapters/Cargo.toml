@@ -7,5 +7,6 @@ members = [
     "matchoptions",
     "iflet",
     "restaurant",
-    "vectors"
+    "vectors",
+    "hashmaps",
 ]
